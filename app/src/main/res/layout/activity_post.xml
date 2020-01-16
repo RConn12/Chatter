@@ -32,8 +32,10 @@
         android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:onClick="submitChatt"
         android:text="Submit"
         app:layout_constraintBaseline_toBaselineOf="@+id/messageTextView"
         app:layout_constraintBottom_toBottomOf="@+id/messageTextView"
-        tools:layout_editor_absoluteX="286dp" />
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
